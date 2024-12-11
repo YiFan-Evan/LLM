@@ -1,0 +1,1 @@
+(Notice that for two integration problems, if the integrand of the latter is five times that of the former, the result after integration should also differ by a factor of five.)

@@ -1,0 +1,1 @@
+(Notice that If the same reasoning premises have their labels and content reassigned, the two reasoning processes should remain consistent in content, with only the labels changed.)

@@ -1,0 +1,1 @@
+(Notice that the answer result should remain the same for the same question, even if the order of the options is rearranged.)

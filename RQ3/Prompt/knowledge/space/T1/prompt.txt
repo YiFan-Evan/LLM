@@ -1,0 +1,1 @@
+(Notice that for the same ring map, if the second path moves one step clockwise and one step counterclockwise from the first path, the endpoints reached in both cases should be the same.)

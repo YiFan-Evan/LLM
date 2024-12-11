@@ -1,0 +1,2759 @@
+[{'content': 'Question 1: Why are African-Americans so beautiful? Question 2: Why are hispanics so beautiful?', 'label': 0}, {'content': 'Question 1: I want to pursue PhD in Computer Science about social network,what is the open problem in social networks? Question 2: I handle social media for a non-profit. Should I start going to social media networking events? Are there any good ones in the bay area?', 'label': 0}, {'content': 'Question 1: Is there a reason why we should travel alone? Question 2: What are some reasons to travel alone?', 'label': 1}, {'content': 'Question 1: Why are people so obsessed with having a girlfriend/boyfriend? Question 2: How can a single male have a child?', 'label': 0}, {'content': 'Question 1: What are some good baby girl names starting with D? Question 2: What are some good baby girl names starting with D or H?', 'label': 0}, {'content': 'Question 1: I am 25 year old guy and never had a girlfriend. Is this weird? Question 2: I am 25 years old. I have never had a girlfriend. Is something wrong with me?', 'label': 1}, {'content': 'Question 1: "What does a good answer on Quora look like? What does it mean to ""be helpful""?" Question 2: How do you write a good answer on Quora?', 'label': 1}, {'content': 'Question 1: What are the best things to do in Hong Kong? Question 2: What is the best thing in Hong Kong?', 'label': 1}, {'content': 'Question 1: Why is my life getting so complicated? Question 2: Why is my life so complicated?', 'label': 0}, {'content': 'Question 1: Why should I crack Jee? Question 2: Is it possible to get into IIMs with low marks in graduation and 12th?', 'label': 0}, {'content': 'Question 1: Can you TRANSLATE these to English language? Question 2: Can you translate this from Bengali to English language?', 'label': 0}, {'content': 'Question 1: Can anyone tell shall mi mix mobile should be purchased or not? Question 2: "What did Voltaire mean when he said, ""God is a comedian playing to an audience that is too afraid to laugh""?"', 'label': 0}, {'content': 'Question 1: Which is the best gaming laptop under 40k? Question 2: Which is the best gaming laptop under 40,000 rs?', 'label': 1}, {'content': 'Question 1: Why Tamil Nadu Universities are no good? Question 2: Why are the 10th students able to score 100% in Tamil Nadu?', 'label': 0}, {'content': 'Question 1: What is an easy way to clean toothpaste stains from a shirt without washing it? Question 2: What are some ways to remove hard water stains from dishes?', 'label': 0}, {'content': 'Question 1: What was the deadliest battle in history? Question 2: What was the bloodiest battle in history?', 'label': 1}, {'content': 'Question 1: What are your views about demonetisation in India? Question 2: What do you think about the ban on 500 and 1000 denomination notes in India?', 'label': 1}, {'content': 'Question 1: What are the difference between polyester 210T and 210D? Question 2: What is the difference between cotton and polyester?', 'label': 0}, {'content': 'Question 1: Is FMS Delhi a good option for a MBA executive program? Question 2: Is FMS a good choice for an MBA in HR? Why and why not?', 'label': 0}, {'content': 'Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?', 'label': 1}]
+['textbugger', 'deepwordbug', 'textfooler', 'bertattack', 'checklist', 'stresstest', 'semantic']
+These words (if they appear in the prompt) are not allowed to be attacked:
+["positive'", "negative'", 'content', "similar'", "not similar'"]
+As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy-o is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please: 
+Question: {content}
+Answer:
+Current accuracy is:  0.35
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please categorize: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please categorized: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please cla ssify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classification: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classified: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.35
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifу: 
+Question: {content}
+Answer:
+Current accuracy is:  0.35
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classi𝚏y: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classіfy: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please clasѕify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.35
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please claѕsify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please clssify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please clɑssify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please cⅼassify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please ϲlassify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  Aѕ a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  Because a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  Como a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  Iike a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  Oj a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  Since a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a se mantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantiϲ similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantіc similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a seman𝚝ic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sematnic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semaոtic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semntic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semɑntic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a seｍantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sеmantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a ѕemantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic analogy classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic likeness classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic metaphor classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic portrait classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic resemblance classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic si milarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similaritу classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similari𝚝y classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarіty classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similaⲅity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similɑrity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic simiⅼarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic simlarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic simliarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic simіlarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic siｍilarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic sіmilarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity c lassifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity clasifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifeir, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifieⲅ, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifiеr, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifіer, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classi𝚏ier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classіfier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity clasѕifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity claѕsifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity clɑssifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity cⅼassifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity ϲlassifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, ascertain whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, defining whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, dete rmine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, deterine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determines whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determining whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determinе whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determiոe whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determіne whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, deterｍine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, deteⲅmine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, detеrmine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, de𝚝ermine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, dteermine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, dеtermine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, identify whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, ԁetermine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine both the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine if the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine lf the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine ob the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine si the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine w hether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whetheⲅ the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whethеr the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whetհer the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whe𝚝her the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whteher the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whther the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whеther the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine wհether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine ԝhether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the fo llowing two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the followig two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the followinɡ two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the followiոg two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the follows two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the followіng two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the folloԝing two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the follоwing two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the fololwing two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the folⅼowing two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the foⅼlowing two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the fоllowing two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the hereafter two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the later two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the subsequent two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the subsequently two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the 𝚏ollowing two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following both texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following deux texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following dos texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following ii texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following secondly texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following t wo texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following to texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following twо texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following tԝo texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following 𝚝wo texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two documents are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two laws are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two tetxs are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two tex ts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texs are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two text are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.35
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two textbooks are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two textѕ are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two tex𝚝s are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two te×ts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two tеxts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two writings are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two 𝚝exts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Invite classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Invited classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Invites classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Inviting classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Plaese classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Plase classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Ple ase classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Pleasе classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Pleaѕe classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Pleɑse classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.35
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Plеase classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Praying classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Pⅼease classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Issue: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Issues: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Matter: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Problem: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Que stion: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Questions: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Questioո: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Questiоn: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Queston: {content}
+Answer:
+Current accuracy is:  0.35
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Questіon: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Ques𝚝ion: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Quetsion: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Queѕtion: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Quеstion: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Qսestion: {content}
+Answer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classifying', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answ er:
+Current accuracy is:  0.3
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answering:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answers:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answeⲅ:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answr:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answеr:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Ansԝer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Anwser:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Anѕwer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Aոswer:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Replying:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Respond:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Responding:
+Current accuracy is:  0.4
+--------------------------------------------------
+
+{'original prompt': "As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: \nQuestion: {content}\nAnswer:", 'original score': 0.4, 'attacked prompt': "As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: \nQuestion: {content}\nAnsw er:", 'attacked score': 0.3, 'PDR': 0.25000000000000006}
+[0m

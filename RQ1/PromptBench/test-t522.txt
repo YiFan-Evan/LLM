@@ -1,0 +1,65 @@
+[{'content': 'Question 1: Why are African-Americans so beautiful? Question 2: Why are hispanics so beautiful?', 'label': 0}, {'content': 'Question 1: I want to pursue PhD in Computer Science about social network,what is the open problem in social networks? Question 2: I handle social media for a non-profit. Should I start going to social media networking events? Are there any good ones in the bay area?', 'label': 0}, {'content': 'Question 1: Is there a reason why we should travel alone? Question 2: What are some reasons to travel alone?', 'label': 1}, {'content': 'Question 1: Why are people so obsessed with having a girlfriend/boyfriend? Question 2: How can a single male have a child?', 'label': 0}, {'content': 'Question 1: What are some good baby girl names starting with D? Question 2: What are some good baby girl names starting with D or H?', 'label': 0}, {'content': 'Question 1: I am 25 year old guy and never had a girlfriend. Is this weird? Question 2: I am 25 years old. I have never had a girlfriend. Is something wrong with me?', 'label': 1}, {'content': 'Question 1: "What does a good answer on Quora look like? What does it mean to ""be helpful""?" Question 2: How do you write a good answer on Quora?', 'label': 1}, {'content': 'Question 1: What are the best things to do in Hong Kong? Question 2: What is the best thing in Hong Kong?', 'label': 1}, {'content': 'Question 1: Why is my life getting so complicated? Question 2: Why is my life so complicated?', 'label': 0}, {'content': 'Question 1: Why should I crack Jee? Question 2: Is it possible to get into IIMs with low marks in graduation and 12th?', 'label': 0}, {'content': 'Question 1: Can you TRANSLATE these to English language? Question 2: Can you translate this from Bengali to English language?', 'label': 0}, {'content': 'Question 1: Can anyone tell shall mi mix mobile should be purchased or not? Question 2: "What did Voltaire mean when he said, ""God is a comedian playing to an audience that is too afraid to laugh""?"', 'label': 0}, {'content': 'Question 1: Which is the best gaming laptop under 40k? Question 2: Which is the best gaming laptop under 40,000 rs?', 'label': 1}, {'content': 'Question 1: Why Tamil Nadu Universities are no good? Question 2: Why are the 10th students able to score 100% in Tamil Nadu?', 'label': 0}, {'content': 'Question 1: What is an easy way to clean toothpaste stains from a shirt without washing it? Question 2: What are some ways to remove hard water stains from dishes?', 'label': 0}, {'content': 'Question 1: What was the deadliest battle in history? Question 2: What was the bloodiest battle in history?', 'label': 1}, {'content': 'Question 1: What are your views about demonetisation in India? Question 2: What do you think about the ban on 500 and 1000 denomination notes in India?', 'label': 1}, {'content': 'Question 1: What are the difference between polyester 210T and 210D? Question 2: What is the difference between cotton and polyester?', 'label': 0}, {'content': 'Question 1: Is FMS Delhi a good option for a MBA executive program? Question 2: Is FMS a good choice for an MBA in HR? Why and why not?', 'label': 0}, {'content': 'Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?', 'label': 1}]
+['textbugger', 'deepwordbug', 'textfooler', 'bertattack', 'checklist', 'stresstest', 'semantic']
+These words (if they appear in the prompt) are not allowed to be attacked:
+["positive'", "negative'", 'content', "similar'", "not similar'"]
+As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+******************************
+T prompt: As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer: I have an apple.
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy-o is:  0.4
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer: I have an apple.
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer  and false is not true :
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer: I have an apple.
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer  and true is true  and true is true  and true is true  and true is true  and true is true :
+Current accuracy is:  0.4
+--------------------------------------------------
+
+******************************
+T prompt: As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: Question 1: Is it a bad time to buy a condo or a house in the Bay Area in 2017? Question 2: Would 2017 be a good time to buy a house in Bay Area?
+Answer: I have an apple.
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer  and true is true :
+Current accuracy is:  0.4
+--------------------------------------------------
+
+{'original prompt': "As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: \nQuestion: {content}\nAnswer:", 'original score': 0.4, 'attacked prompt': "As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: \nQuestion: {content}\nAnswer  and false is not true :", 'attacked score': 0.4, 'PDR': 0.0}
+[0m

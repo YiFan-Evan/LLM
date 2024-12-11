@@ -1,0 +1,1 @@
+(Notice that if the same image is flipped horizontally, the number of flags pointing left and the number of flags pointing right will be swapped.)

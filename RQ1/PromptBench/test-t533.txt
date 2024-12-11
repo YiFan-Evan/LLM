@@ -1,0 +1,2044 @@
+[{'content': 'Sentence 1: He said the foodservice pie business doesn \'t fit the company \'s long-term growth strategy . Sentence 2: " The foodservice pie business does not fit our long-term growth strategy .', 'label': 1}, {'content': 'Sentence 1: Magnarelli said Racicot hated the Iraqi regime and looked forward to using his long years of training in the war . Sentence 2: His wife said he was " 100 percent behind George Bush " and looked forward to using his years of training in the war .', 'label': 0}, {'content': 'Sentence 1: The dollar was at 116.92 yen against the yen , flat on the session , and at 1.2891 against the Swiss franc , also flat . Sentence 2: The dollar was at 116.78 yen JPY = , virtually flat on the session , and at 1.2871 against the Swiss franc CHF = , down 0.1 percent .', 'label': 0}, {'content': 'Sentence 1: The AFL-CIO is waiting until October to decide if it will endorse a candidate . Sentence 2: The AFL-CIO announced Wednesday that it will decide in October whether to endorse a candidate before the primaries .', 'label': 1}, {'content': 'Sentence 1: No dates have been set for the civil or the criminal trial . Sentence 2: No dates have been set for the criminal or civil cases , but Shanley has pleaded not guilty .', 'label': 0}, {'content': 'Sentence 1: Wal-Mart said it would check all of its million-plus domestic workers to ensure they were legally employed . Sentence 2: It has also said it would review all of its domestic employees more than 1 million to ensure they have legal status .', 'label': 1}, {'content': 'Sentence 1: While dioxin levels in the environment were up last year , they have dropped by 75 percent since the 1970s , said Caswell . Sentence 2: The Institute said dioxin levels in the environment have fallen by as much as 76 percent since the 1970s .', 'label': 0}, {'content': 'Sentence 1: This integrates with Rational PurifyPlus and allows developers to work in supported versions of Java , Visual C # and Visual Basic .NET. Sentence 2: IBM said the Rational products were also integrated with Rational PurifyPlus , which allows developers to work in Java , Visual C # and VisualBasic .Net.', 'label': 1}, {'content': 'Sentence 1: The top rate will go to 4.45 percent for all residents with taxable incomes above $ 500,000 . Sentence 2: For residents with incomes above $ 500,000 , the income-tax rate will increase to 4.45 percent .', 'label': 1}, {'content': 'Sentence 1: The results appear in the January issue of Cancer , an American Cancer Society journal , being published online today . Sentence 2: The results appear in the January issue of Cancer , an American Cancer Society ( news - web sites ) journal , being published online Monday .', 'label': 1}, {'content': 'Sentence 1: The delegates said raising and distributing funds has been complicated by the U.S. crackdown on jihadi charitable foundations , bank accounts of terror-related organizations and money transfers . Sentence 2: Bin Laden ’ s men pointed out that raising and distributing funds has been complicated by the U.S. crackdown on jihadi charitable foundations , bank accounts of terror-related organizations and money transfers .', 'label': 1}, {'content': 'Sentence 1: " Sanitation is poor ... there could be typhoid and cholera , " he said . Sentence 2: " Sanitation is poor , drinking water is generally left behind . . . there could be typhoid and cholera . "', 'label': 0}, {'content': "Sentence 1: The broader Standard & Poor 's 500 Index .SPX gave up 11.91 points , or 1.19 percent , at 986.60 . Sentence 2: The technology-laced Nasdaq Composite Index was down 25.36 points , or 1.53 percent , at 1,628.26 .", 'label': 0}, {'content': 'Sentence 1: The only announced Republican to replace Davis is Rep. Darrell Issa of Vista , who has spent $ 1.71 million of his own money to force a recall . Sentence 2: So far the only declared major party candidate is Rep. Darrell Issa , a Republican who has spent $ 1.5 million of his own money to fund the recall .', 'label': 1}, {'content': "Sentence 1: The decision to issue new guidance has been prompted by intelligence passed to Britain by the FBI in a secret briefing in late July . Sentence 2: Scotland Yard 's decision to issue new guidance has been prompted by new intelligence passed to Britain by the FBI in late July .", 'label': 1}, {'content': 'Sentence 1: Unable to find a home for him , a judge told mental health authorities they needed to find supervised housing and treatment for DeVries somewhere in California . Sentence 2: The judge had told the state Department of Mental Health to find supervised housing and treatment for DeVries somewhere in California .', 'label': 1}, {'content': "Sentence 1: The decision came a year after Whipple ended federal oversight of the district 's racial balance , facilities , budget , and busing . Sentence 2: The decision came a year after Whipple ended federal oversight of school busing as well as the district 's racial balance , facilities and budget .", 'label': 1}, {'content': 'Sentence 1: In midafternoon trading , the Nasdaq composite index was up 8.34 , or 0.5 percent , to 1,790.47 . Sentence 2: The Nasdaq Composite Index .IXIC dipped 8.59 points , or 0.48 percent , to 1,773.54 .', 'label': 0}, {'content': 'Sentence 1: Morgan Stanley raised its rating on the beverage maker to " overweight " from " equal-weight " saying in part that pricing power with its bottlers should improve in 2004 . Sentence 2: Morgan Stanley raised its rating on the company to " overweight " from " equal-weight , " saying the beverage maker \'s pricing power with bottlers should improve in 2004 .', 'label': 1}, {'content': 'Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .', 'label': 0}]
+['textbugger', 'deepwordbug', 'textfooler', 'bertattack', 'checklist', 'stresstest', 'semantic']
+These words (if they appear in the prompt) are not allowed to be attacked:
+["positive'", "negative'", 'content', "similar'", "not similar'"]
+As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy-o is:  0.6
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.55
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'classifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifeir, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifieⲅ, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifir, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifiеr, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classifіer, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classi𝚏ier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity classіfier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity clasѕifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity claѕsifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity clɑssifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity cⅼassifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarity ϲlassifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  Aѕ a semantic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  Because a semantic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  Como a semantic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  Iike a semantic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  Oj a semantic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  Since a semantic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sema ntic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantiϲ similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantіc similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a seman𝚝ic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semaոtic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semnatic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semntic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a semɑntic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a seｍantic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sеmantic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a ѕemantic similarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'similarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic analogy cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic likeness cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic metaphor cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic portrait cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic resemblance cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic siilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic simi larity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similaritу cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similari𝚝y cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similarіty cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similaⲅity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similraity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic similɑrity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic simiⅼarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic simіlarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic siｍilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic sіmilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.55
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, ascertain whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, de termine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, defining whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determines whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determining whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determinе whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determiոe whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determіne whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, deterｍine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, deteⲅmine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, detremine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, detеrmine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, de𝚝ermine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.55
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, dtermine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, dеtermine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, identify whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, ԁetermine whether the following two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the f ollowing two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the flolowing two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the folloing two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the followinɡ two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the followiոg two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the follows two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the followіng two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the folloԝing two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the follоwing two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the folⅼowing two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the foⅼlowing two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the fоllowing two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the hereafter two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the later two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the subsequent two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the subsequently two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the 𝚏ollowing two texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following both texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.55
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following deux texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following dos texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following ii texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following secondly texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following t wo texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following to texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following twо texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following tԝo texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following 𝚝wo texts are 'similar' or 'not similar'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Invite classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Invited classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Invites classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Inviting classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. P lease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Pleasе classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Pleaѕe classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Plesae classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Plese classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Pleɑse classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Plеase classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Praying classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Pⅼease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please categorize: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please categorized: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classfiy: 
+Question: {content}
+Answer:
+Current accuracy is:  0.55
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classi fy: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classification: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classified: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifying: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classifу: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classi𝚏y: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classіfy: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please clasѕify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please claѕsify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please clssify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please clɑssify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please cⅼassify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+******************************
+T prompt: As a semant1c similar1ty class1f1er, determ1ne whether the follow1ng two texts are 'similar' or 'not similar'. Please class1fy: 
+Quest1on: Sentence 1: The pound also made progress against the dollar , reached fresh three-year highs at $ 1.6789 . Sentence 2: The British pound flexed its muscle against the dollar , last up 1 percent at $ 1.6672 .
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please ϲlassify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.6
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'semantic', 'ѕimilarity', 'cl', 'assifier', 'determine', 'whether', 'the', 'following', 'two', 'texts', 'are', 'or', 'not', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+{'original prompt': "As a semantic similarity classifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: \nQuestion: {content}\nAnswer:", 'original score': 0.6, 'attacked prompt': "As a semantic ѕimilarity cl assifier, determine whether the following two texts are 'similar' or 'not similar'. Please classify: \nQuestion: {content}\nAnswer:", 'attacked score': 0.55, 'PDR': 0.08333333333333323}
+[0m

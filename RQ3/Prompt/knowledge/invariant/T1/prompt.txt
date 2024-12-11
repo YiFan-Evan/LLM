@@ -1,0 +1,1 @@
+(Notice that for the same program, even if the loop condition changes from < len to <= len - 1, the loop invariant should remain unchanged.)

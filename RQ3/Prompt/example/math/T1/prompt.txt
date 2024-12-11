@@ -1,0 +1,1 @@
+(Here is an example: [{'role': 'user', 'content': 'The function is: e^x*sin(x).'}, {'role': 'assistant', 'content': '-2'}, {'role': 'user', 'content': 'e^x*sin(x)'}, {'role': 'assistant', 'content': '-2'}])

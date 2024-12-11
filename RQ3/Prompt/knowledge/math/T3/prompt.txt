@@ -1,0 +1,1 @@
+(Notice that for two integration problems, if the integrand of the latter is the former plus x, then the result after integration should differ by 1/2*x^2.)

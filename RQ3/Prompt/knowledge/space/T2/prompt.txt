@@ -1,0 +1,1 @@
+(Notice that for the same ring map, if the clockwise and counterclockwise paths in the route are exchanged, it will be possible to return to the starting point from the endpoint.)

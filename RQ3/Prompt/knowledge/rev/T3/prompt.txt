@@ -1,0 +1,1 @@
+(Notice that for the same graph, if the endpoint is changed to the previous point, the new shortest path should be the original shortest path minus the last point.)

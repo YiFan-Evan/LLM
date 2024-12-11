@@ -1,0 +1,1 @@
+(Notice that for the same ring map, if the number of steps in the route is doubled, the distance from the starting point to the endpoint should also be doubled.)

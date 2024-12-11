@@ -1,0 +1,1 @@
+(Notice that for the same program, if the loop variable is changed to its original value minus one, the array index in the loop invariant should be adjusted accordingly.)

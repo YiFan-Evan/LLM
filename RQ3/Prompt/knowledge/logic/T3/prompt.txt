@@ -1,0 +1,7 @@
+(Notice that if the conclusion of a reasoning process happens to be a premise in a new reasoning process, the previous reasoning can incorporate this new condition to derive a new conclusion.)
+
+
+
+
+
+

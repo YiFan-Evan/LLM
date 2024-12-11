@@ -1,0 +1,1 @@
+(Notice that if the same image undergoes an inverse color process, the result number should remain the same.)

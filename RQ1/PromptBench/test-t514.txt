@@ -1,0 +1,929 @@
+[{'content': "it 's a charming and often affecting journey . ", 'label': 1}, {'content': 'unflinchingly bleak and desperate ', 'label': 0}, {'content': 'allows us to hope that nolan is poised to embark a major career as a commercial yet inventive filmmaker . ', 'label': 1}, {'content': "the acting , costumes , music , cinematography and sound are all astounding given the production 's austere locales . ", 'label': 1}, {'content': "it 's slow -- very , very slow . ", 'label': 0}, {'content': 'although laced with humor and a few fanciful touches , the film is a refreshingly serious look at young women . ', 'label': 1}, {'content': 'a sometimes tedious film . ', 'label': 0}, {'content': "or doing last year 's taxes with your ex-wife . ", 'label': 0}, {'content': "you do n't have to know about music to appreciate the film 's easygoing blend of comedy and romance . ", 'label': 1}, {'content': "in exactly 89 minutes , most of which passed as slowly as if i 'd been sitting naked on an igloo , formula 51 sank from quirky to jerky to utter turkey . ", 'label': 0}, {'content': 'the mesmerizing performances of the leads keep the film grounded and keep the audience riveted . ', 'label': 1}, {'content': 'it takes a strange kind of laziness to waste the talents of robert forster , anne meara , eugene levy , and reginald veljohnson all in the same movie . ', 'label': 0}, {'content': '... the film suffers from a lack of humor ( something needed to balance out the violence ) ... ', 'label': 0}, {'content': "we root for ( clara and paul ) , even like them , though perhaps it 's an emotion closer to pity . ", 'label': 1}, {'content': "even horror fans will most likely not find what they 're seeking with trouble every day ; the movie lacks both thrills and humor . ", 'label': 0}, {'content': 'a gorgeous , high-spirited musical from india that exquisitely blends music , dance , song , and high drama . ', 'label': 1}, {'content': "the emotions are raw and will strike a nerve with anyone who 's ever had family trauma . ", 'label': 1}, {'content': "audrey tatou has a knack for picking roles that magnify her outrageous charm , and in this literate french comedy , she 's as morning-glory exuberant as she was in amélie . ", 'label': 1}, {'content': '... the movie is just a plain old monster . ', 'label': 0}, {'content': 'in its best moments , resembles a bad high school production of grease , without benefit of song . ', 'label': 0}]
+['textbugger', 'deepwordbug', 'textfooler', 'bertattack', 'checklist', 'stresstest', 'semantic']
+These words (if they appear in the prompt) are not allowed to be attacked:
+["positive'", "negative'", 'content', "similar'", "not similar'"]
+As a sentiment classifier, determine whether the following text is 'positive' or 'negative'. Please classify: 
+Question: {content}
+Answer:
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.85
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, determine whether the following text is 'positive' or 'negative'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy-o is:  1.0
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'determine', 'whether', 'the', 'following', 'text', 'is', 'or', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'determine', 'whether', 'the', 'following', 'text', 'is', 'or', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'determine', 'whether', 'the', 'following', 'text', 'is', 'or', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'determine', 'whether', 'the', 'following', 'text', 'is', 'or', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.85
+******************************
+--------------------------------------------------
+Current prompt is:  [UNK] a sentiment classifier, determine whether the following text is 'positive' or 'negative'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  1.0
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a [UNK] classifier, determine whether the following text is 'positive' or 'negative'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  1.0
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment [UNK], determine whether the following text is 'positive' or 'negative'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  1.0
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, [UNK] whether the following text is 'positive' or 'negative'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, determine [UNK] the following text is 'positive' or 'negative'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, determine whether the [UNK] text is 'positive' or 'negative'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, determine whether the following [UNK] is 'positive' or 'negative'. Please classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, determine whether the following text is 'positive' or 'negative'. [UNK] classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, determine whether the following text is 'positive' or 'negative'. Please [UNK]: 
+Question: {content}
+Answer:
+Current accuracy is:  1.0
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, determine whether the following text is 'positive' or 'negative'. Please classify: 
+[UNK]: {content}
+Answer:
+Current accuracy is:  1.0
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, determine whether the following text is 'positive' or 'negative'. Please classify: 
+Question: {content}
+[UNK]:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'determine', 'whether', 'the', 'following', 'text', 'is', 'or', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'determine', 'whether', 'the', 'following', 'text', 'is', 'or', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'determine', 'whether', 'the', 'following', 'text', 'is', 'or', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'determine', 'whether', 'the', 'following', 'text', 'is', 'or', 'Please', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.85
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, determine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, determine whether the following text is 'positive' or 'negative'. Pleas classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, determine whether the following text is 'positive' or 'negative'. PleasSe classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, determine whether the following text is 'positive' or 'negative'. Plesae classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'determine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'determine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'determine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'determine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, deetrmine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, deitermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, detemine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine hether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine hwether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whetXer the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whetheZr the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  1.0
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whether the followiSng text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whether the folowing text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whether the fqllowing text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whether the ofllowing text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whether the following tet is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whether the following tpext is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whether the following txet is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.85
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whether the following vext is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Ansiwer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Anwser:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+nswer:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentiment classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+wnswer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  AI a sentiment classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  nAs a sentiment classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  s a sentiment classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  sA a sentiment classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentiment', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimelt classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.85
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.8
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimet classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimetn classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  1.0
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a usentiment classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentimelt', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentimelt', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentimelt', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentimelt', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.85
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimelt classfier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.85
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.85
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimelt classifeir, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimelt classiqier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  1.0
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.85
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimelt clrassifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentimelt', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentimelt', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentimelt', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentimelt', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimelt classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease clDssify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimelt classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease clNassify: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.9
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimelt classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classiy: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimelt classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classiyf: 
+Question: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentimelt', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentimelt', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentimelt', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+--------------------------------------------------
+Modifiable words:  ['As', 'a', 'sentimelt', 'classifier', 'dMtermine', 'whether', 'the', 'following', 'text', 'is', 'or', 'PDease', 'classify', 'Question', 'Answer']
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimelt classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Questin: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimelt classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Questiov: {content}
+Answer:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 0.95
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimelt classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+Questoin: {content}
+Answer:
+Current accuracy is:  0.95
+--------------------------------------------------
+
+******************************
+T prompt: As as senimen classsifier, deermine wheher he following ex is 'positive' or 'negative'. Pleasse classsify: 
+Quesion: in its best moments , resembles a bad high school production of grease , without benefit of song . 
+Answer:
+T accuracy: 1.0
+******************************
+--------------------------------------------------
+Current prompt is:  As a sentimelt classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: 
+hQuestion: {content}
+Answer:
+Current accuracy is:  0.9
+--------------------------------------------------
+
+{'original prompt': "As a sentiment classifier, determine whether the following text is 'positive' or 'negative'. Please classify: \nQuestion: {content}\nAnswer:", 'original score': 1.0, 'attacked prompt': "As a sentimelt classifier, dMtermine whether the following text is 'positive' or 'negative'. PDease classify: \nQuestion: {content}\nAnswer:", 'attacked score': 0.85, 'PDR': 0.15000000000000002}
+[0m
