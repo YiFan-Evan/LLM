@@ -1,0 +1,20 @@
+{
+    "original": {
+        "original_acc": 41.2371,
+        "perturbed_acc": 41.2371,
+        "robust_acc": 100.0,
+        "num_examples": 194,
+        "the_same_acc": 100.0
+    },
+    "add": {
+        "original_acc": 41.0,
+        "perturbed_acc": 38.5,
+        "robust_acc": 87.8049,
+        "num_examples": 200,
+        "the_same_acc": 74.5
+    },
+    "T_original": {
+        "T_acc": 82.4742,
+        "T_robust_acc": 39.6907
+    }
+}

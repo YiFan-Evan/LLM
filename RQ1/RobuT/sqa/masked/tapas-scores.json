@@ -1,0 +1,20 @@
+{
+    "original": {
+        "original_acc": 72.25,
+        "perturbed_acc": 72.25,
+        "robust_acc": 100.0,
+        "num_examples": 120,
+        "the_same_acc": 100.0
+    },
+    "masked": {
+        "original_acc": 69.4083,
+        "perturbed_acc": 54.3583,
+        "robust_acc": 76.8159,
+        "num_examples": 200,
+        "the_same_acc": 54.0
+    },
+    "T_original": {
+        "T_acc": 61.6667,
+        "T_robust_acc": 61.4167
+    }
+}
